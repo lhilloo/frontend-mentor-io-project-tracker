@@ -2,6 +2,7 @@
 @font-face {
   font-family: Barlow;
   src: url(https://fonts.google.com/specimen/Barlow+Condensed);
+
 }
 
 * {
@@ -16,4 +17,9 @@ body {
   padding: 0;
   font-size: 18px;
   font-family: Barlow;
+  Weights: 400;
 }
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
