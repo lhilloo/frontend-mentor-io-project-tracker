@@ -87,9 +87,8 @@ main .contents{
 }
 
 main .illustration img {
+  width: 100%;
   height: auto;
-  position: relative;
-  left: 150px;
 }
 main h1, p {
   font-weight: 700;
@@ -143,3 +142,27 @@ footer {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* Responsiveness */
+@media screen and (max-width: 1245px) {
+  .demo {
+    font-size: .8em;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 1088px) {
+  .demo {
+    font-size: .6em;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .demo {
+    font-size: .4em;
+    letter-spacing: 0;
+  }
+}
